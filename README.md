@@ -20,3 +20,11 @@
     Console.WriteLine("The End....");
     Console.ReadLine();
 ```
+
+### Connection String
+```C#
+  <connectionStrings>
+    <add name="SourceSQLDBConn" connectionString="Server=DESKTOP-3KU7CQB\MSSQLSERVER2014; Database=DevTemp; User ID=devproject;Password=dev123456" />
+    <add name="DestinationSQLDBConn" connectionString="Server=DESKTOP-3KU7CQB\MSSQLSERVER2014; Database=Destination; User ID=devproject;Password=dev123456" />
+  </connectionStrings> 
+```
